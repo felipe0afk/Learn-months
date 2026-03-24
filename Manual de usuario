@@ -1,0 +1,62 @@
+Manual de Usuario: Aventuras con los Meses 
+Aventuras con los Meses es una plataforma educativa interactiva diseñada para que estudiantes de primaria dominen el concepto del tiempo y la cronología de los meses del año. A través de estímulos visuales, auditivos y de gamificación, la app garantiza un aprendizaje significativo y divertido.
+
+1. Requisitos del Sistema e Instalación
+Para que la aplicación funcione correctamente con todas sus capacidades de audio e imagen, es necesario tener instalado Python 3.x y ejecutar el siguiente comando en la terminal para instalar las dependencias:
+
+Bash
+pip install pyttsx3
+pip install Pillow 
+2. Acceso y Seguridad de Datos
+La aplicación utiliza un sistema de gestión de usuarios basado en SQLite, lo que permite que varios estudiantes compartan el equipo sin perder su progreso.
+
+Registro de Perfil: Si es tu primera vez, ve a "Registrarse". Elige un nombre de usuario único y una clave secreta.
+
+Inicio de Sesión: Ingresa tus datos. Si son correctos, entrarás a tu panel personalizado.
+
+Persistencia: Tus récords se guardan automáticamente. No importa si cierras la app, tu esfuerzo queda registrado.
+
+3. El Panel de Control (Menú Principal)
+Aquí encontrarás toda la información relevante de tu entrenamiento:
+
+
+Cuadro de Honor: Muestra tu nombre de jugador y tus mejores puntajes históricos en el Test y en el Juego de Ordenar.
+ 
+Botón de Diploma: Este botón es especial. Solo aparecerá cuando logres la perfección (10/10 en el Test y 12/12 en Ordenar).
+
+4. Módulos de Aprendizaje y Juego
+Módulo: Aprender
+Ideal para la fase inicial de reconocimiento.
+
+Interacción: Al presionar el botón de cualquier mes, la aplicación usará Síntesis de Voz para pronunciar el nombre del mes.
+
+Visualización: Al hacer clic, entrarás a una vista de detalle donde verás la imagen representativa del mes y podrás escuchar la pronunciación cuantas veces quieras.
+
+Módulo: Test de Imágenes
+Pone a prueba tu memoria visual y asociación.
+
+Dinámica: Se te presentarán 10 preguntas aleatorias.
+
+Desafío: Deberás identificar el mes basándote en la imagen que aparece en pantalla.
+
+Feedback: La app te dirá si acertaste o cuál era la respuesta correcta mediante audio y mensajes.
+
+Módulo: Ordenar el Año
+El reto definitivo de lógica cronológica.
+
+Mecánica: Verás los meses desordenados a la izquierda y 12 casillas numeradas a la derecha.
+
+Drag & Drop (Arrastrar): Debes hacer clic en un mes y arrastrarlo hasta su casilla correspondiente (ejemplo: Enero al puesto 1º).
+
+Revisión: Al finalizar, presiona "Revisar". Las casillas se iluminarán en verde si acertaste o rojo si debes corregir.
+
+5. Certificación: "Maestro del Tiempo"
+Al alcanzar la maestría total de los contenidos, se desbloquea el Diploma de Excelencia. Este es un certificado digital generado en tiempo real que:
+
+Muestra tu nombre completo en letras grandes.
+
+Certifica tu título de "Maestro del Tiempo".
+
+Registra la fecha exacta de tu logro.
+
+Incluye una felicitación especial por voz.
